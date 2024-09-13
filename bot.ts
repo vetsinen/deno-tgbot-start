@@ -1,5 +1,4 @@
-import { Bot } from "https://deno.land/x/grammy@v1.30.0/mod.ts";
-import { config } from "https://deno.land/x/dotenv@v3.2.2/mod.ts";
+import { Bot, config } from "./deno.deps.ts";
 
 let botToken = Deno.env.get("TGTOKEN");
 if (!botToken) {
